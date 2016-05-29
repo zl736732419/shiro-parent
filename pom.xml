@@ -62,6 +62,13 @@
             <version>2.6.6</version>
         </dependency>
 
+		<!-- spring jdbc -->
+		<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>4.0.0.RELEASE</version>
+        </dependency>
+
 	</dependencies>
 
 	<dependencyManagement>
