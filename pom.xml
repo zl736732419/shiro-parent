@@ -28,6 +28,13 @@
 			<artifactId>shiro-core</artifactId>
 			<version>1.2.4</version>
 		</dependency>
+		
+		<!-- shiro-cache -->
+		<dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-ehcache</artifactId>
+            <version>1.2.2</version>
+        </dependency>
 
 		<!-- guava -->
 		<dependency>
@@ -115,6 +122,8 @@
 	</build>
 
 	<modules>
+		<module>../shiro-se</module>
+		<module>../shiro-test</module>
 		<module>../shiro-study</module>
 	</modules>
 
