@@ -125,6 +125,7 @@
 		<module>../shiro-se</module>
 		<module>../shiro-test</module>
 		<module>../shiro-study</module>
+		<module>../shiro-spring</module>
 	</modules>
 
 </project>
